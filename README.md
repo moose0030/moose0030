@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I'm Matt Preston. I also commit under
+I'm Matt Preston. I used to commit under
 [@MattPreston-PAS](https://github.com/MattPreston-PAS) and
 [@MattPreston-ZT](https://github.com/MattPreston-ZT).
 

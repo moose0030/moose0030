@@ -16,6 +16,8 @@ Merged contribution graph across my GitHub accounts —
 ### By year
 
 <!-- contributions:start -->
+**Pick a year:** [2026](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2026.svg) · [2025](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2025.svg) · [2024](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2024.svg) · [2023](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2023.svg) · [2022](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2022.svg) · [2021](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2021.svg) · [2020](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2020.svg) · [2019](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2019.svg) · [2018](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2018.svg) · [2017](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2017.svg) · [2016](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2016.svg) · [2015](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2015.svg)
+
 <details open>
 <summary><b>2026</b> — 374 contributions</summary>
 

@@ -178,7 +178,12 @@ for (let year = currentYear; year >= firstYear; year--) {
 const readmePath = join(root, "README.md");
 const START = "<!-- contributions:start -->";
 const END = "<!-- contributions:end -->";
-const block = years
+// "Pick a year" navbar: each link opens that year's rendered SVG full-size.
+// (READMEs can't run JS, so raw-file links are the closest thing to a selector.)
+const rawBase = `https://raw.githubusercontent.com/moose0030/moose0030/main/graphs`;
+const picker = `**Pick a year:** ${years.map(({ year }) => `[${year}](${rawBase}/${year}.svg)`).join(" · ")}`;
+
+const block = `${picker}\n\n` + years
   .map(({ year, total }) => {
     const open = year === currentYear ? " open" : "";
     return `<details${open}>\n<summary><b>${year}</b> — ${total.toLocaleString("en-US")} contributions</summary>\n\n<img src="graphs/${year}.svg" alt="${year} combined contribution graph" />\n\n</details>`;

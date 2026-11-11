@@ -152,8 +152,12 @@ const main = renderGraph({
 writeFileSync(join(root, "contributions.svg"), main.svg);
 console.log(`contributions.svg: ${main.total} contributions, ${main.weeks} weeks, max ${main.maxCount}/day`);
 
-// One graph per calendar year, from the earliest year with data to now.
-const firstYear = Math.min(...[...merged.keys()].map((d) => Number(d.slice(0, 4))));
+// One graph per calendar year, from FIRST_DISPLAY_YEAR to now.
+const FIRST_DISPLAY_YEAR = 2020;
+const firstYear = Math.max(
+  Math.min(...[...merged.keys()].map((d) => Number(d.slice(0, 4)))),
+  FIRST_DISPLAY_YEAR,
+);
 const graphsDir = join(root, "graphs");
 rmSync(graphsDir, { recursive: true, force: true });
 mkdirSync(graphsDir, { recursive: true });
@@ -178,15 +182,13 @@ for (let year = currentYear; year >= firstYear; year--) {
 const readmePath = join(root, "README.md");
 const START = "<!-- contributions:start -->";
 const END = "<!-- contributions:end -->";
-// "Pick a year" navbar: each link opens that year's rendered SVG full-size.
-// (READMEs can't run JS, so raw-file links are the closest thing to a selector.)
-const rawBase = `https://raw.githubusercontent.com/moose0030/moose0030/main/graphs`;
-const picker = `**Pick a year:** ${years.map(({ year }) => `[${year}](${rawBase}/${year}.svg)`).join(" · ")}`;
+// "Pick a year" navbar: anchor links that jump to each year's heading.
+// (READMEs can't run JS, so heading anchors are the closest thing to tabs.)
+const picker = `**Pick a year:** ${years.map(({ year }) => `[${year}](#y${year})`).join(" · ")}`;
 
 const block = `${picker}\n\n` + years
   .map(({ year, total }) => {
-    const open = year === currentYear ? " open" : "";
-    return `<details${open}>\n<summary><b>${year}</b> — ${total.toLocaleString("en-US")} contributions</summary>\n\n<img src="graphs/${year}.svg" alt="${year} combined contribution graph" />\n\n</details>`;
+    return `<h4 id="y${year}">${year} — ${total.toLocaleString("en-US")} contributions</h4>\n\n<img src="graphs/${year}.svg" alt="${year} combined contribution graph" />`;
   })
   .join("\n\n");
 

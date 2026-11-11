@@ -16,91 +16,35 @@ Merged contribution graph across my GitHub accounts —
 ### By year
 
 <!-- contributions:start -->
-**Pick a year:** [2026](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2026.svg) · [2025](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2025.svg) · [2024](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2024.svg) · [2023](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2023.svg) · [2022](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2022.svg) · [2021](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2021.svg) · [2020](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2020.svg) · [2019](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2019.svg) · [2018](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2018.svg) · [2017](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2017.svg) · [2016](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2016.svg) · [2015](https://raw.githubusercontent.com/moose0030/moose0030/main/graphs/2015.svg)
+**Pick a year:** [2026](#y2026) · [2025](#y2025) · [2024](#y2024) · [2023](#y2023) · [2022](#y2022) · [2021](#y2021) · [2020](#y2020)
 
-<details open>
-<summary><b>2026</b> — 374 contributions</summary>
+<h4 id="y2026">2026 — 374 contributions</h4>
 
 <img src="graphs/2026.svg" alt="2026 combined contribution graph" />
 
-</details>
-
-<details>
-<summary><b>2025</b> — 1,091 contributions</summary>
+<h4 id="y2025">2025 — 1,091 contributions</h4>
 
 <img src="graphs/2025.svg" alt="2025 combined contribution graph" />
 
-</details>
-
-<details>
-<summary><b>2024</b> — 1,639 contributions</summary>
+<h4 id="y2024">2024 — 1,639 contributions</h4>
 
 <img src="graphs/2024.svg" alt="2024 combined contribution graph" />
 
-</details>
-
-<details>
-<summary><b>2023</b> — 2,056 contributions</summary>
+<h4 id="y2023">2023 — 2,056 contributions</h4>
 
 <img src="graphs/2023.svg" alt="2023 combined contribution graph" />
 
-</details>
-
-<details>
-<summary><b>2022</b> — 1,382 contributions</summary>
+<h4 id="y2022">2022 — 1,382 contributions</h4>
 
 <img src="graphs/2022.svg" alt="2022 combined contribution graph" />
 
-</details>
-
-<details>
-<summary><b>2021</b> — 1,104 contributions</summary>
+<h4 id="y2021">2021 — 1,104 contributions</h4>
 
 <img src="graphs/2021.svg" alt="2021 combined contribution graph" />
 
-</details>
-
-<details>
-<summary><b>2020</b> — 724 contributions</summary>
+<h4 id="y2020">2020 — 724 contributions</h4>
 
 <img src="graphs/2020.svg" alt="2020 combined contribution graph" />
-
-</details>
-
-<details>
-<summary><b>2019</b> — 194 contributions</summary>
-
-<img src="graphs/2019.svg" alt="2019 combined contribution graph" />
-
-</details>
-
-<details>
-<summary><b>2018</b> — 0 contributions</summary>
-
-<img src="graphs/2018.svg" alt="2018 combined contribution graph" />
-
-</details>
-
-<details>
-<summary><b>2017</b> — 0 contributions</summary>
-
-<img src="graphs/2017.svg" alt="2017 combined contribution graph" />
-
-</details>
-
-<details>
-<summary><b>2016</b> — 20 contributions</summary>
-
-<img src="graphs/2016.svg" alt="2016 combined contribution graph" />
-
-</details>
-
-<details>
-<summary><b>2015</b> — 3 contributions</summary>
-
-<img src="graphs/2015.svg" alt="2015 combined contribution graph" />
-
-</details>
 <!-- contributions:end -->
 
 <sub>Public contributions only, refreshed weekly by

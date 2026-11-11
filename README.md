@@ -101,5 +101,5 @@ Merged contribution graph across my GitHub accounts —
 </details>
 <!-- contributions:end -->
 
-<sub>Public contributions only, refreshed daily by
+<sub>Public contributions only, refreshed weekly by
 [this workflow](.github/workflows/contributions.yml).</sub>

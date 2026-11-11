@@ -43,7 +43,6 @@ Merged contribution graph across my GitHub accounts —
 <h4 id="y2020">2020 — 724 contributions</h4>
 
 <img src="graphs/2020.svg" alt="2020 combined contribution graph" />
-<!-- contributions:end -->
 
-<sub>Public contributions only, refreshed weekly by
-[this workflow](.github/workflows/contributions.yml).</sub>
+<sub>Last refreshed 2026-11-11</sub>
+<!-- contributions:end -->

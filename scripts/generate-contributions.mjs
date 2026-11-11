@@ -179,7 +179,7 @@ const block = `${picker}\n\n` + years
   .map(({ year, total }) => {
     return `<h4 id="y${year}">${year} — ${total.toLocaleString("en-US")} contributions</h4>\n\n<img src="graphs/${year}.svg" alt="${year} combined contribution graph" />`;
   })
-  .join("\n\n");
+  .join("\n\n") + `\n\n<sub>Last refreshed ${today}</sub>`;
 
 const readme = readFileSync(readmePath, "utf8");
 const startIdx = readme.indexOf(START);

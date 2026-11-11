@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 // Generates contribution heatmap SVGs that merge the public contribution
 // calendars of all accounts listed in USERS:
-//   contributions.svg     - trailing 365 days (main README image)
 //   graphs/<year>.svg     - one per calendar year
 // Also rewrites the year list in README.md between the contributions markers.
 // Data source: https://github-contributions-api.jogruber.de (no auth required).
@@ -141,16 +140,6 @@ function renderGraph({ from, to, caption }) {
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const today = fmt(new Date());
 const currentYear = Number(today.slice(0, 4));
-
-// Trailing 365 days — the main README image.
-const cutoff = fmt(new Date(Date.now() - 365 * 86400000));
-const main = renderGraph({
-  from: cutoff,
-  to: today,
-  caption: `${[...merged.entries()].filter(([d]) => d >= cutoff).reduce((s, [, c]) => s + c, 0).toLocaleString("en-US")} contributions in the last year across ${USERS.length} accounts`,
-});
-writeFileSync(join(root, "contributions.svg"), main.svg);
-console.log(`contributions.svg: ${main.total} contributions, ${main.weeks} weeks, max ${main.maxCount}/day`);
 
 // One graph per calendar year, from FIRST_DISPLAY_YEAR to now.
 const FIRST_DISPLAY_YEAR = 2020;

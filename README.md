@@ -11,8 +11,6 @@ Merged contribution graph across my GitHub accounts —
 [@MattPreston-ZT](https://github.com/MattPreston-ZT), and
 [@moose0030](https://github.com/moose0030).
 
-<img src="contributions.svg" alt="Combined GitHub contribution graph" />
-
 ### By year
 
 <!-- contributions:start -->

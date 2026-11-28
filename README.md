@@ -16,7 +16,7 @@ Merged contribution graph across my GitHub accounts —
 <!-- contributions:start -->
 **Pick a year:** [2026](#y2026) · [2025](#y2025) · [2024](#y2024) · [2023](#y2023) · [2022](#y2022) · [2021](#y2021) · [2020](#y2020)
 
-<h4 id="y2026">2026 — 1,088 contributions</h4>
+<h4 id="y2026">2026 — 1,138 contributions</h4>
 
 <img src="graphs/2026.svg" alt="2026 combined contribution graph" />
 
@@ -24,7 +24,7 @@ Merged contribution graph across my GitHub accounts —
 
 <img src="graphs/2025.svg" alt="2025 combined contribution graph" />
 
-<h4 id="y2024">2024 — 1,639 contributions</h4>
+<h4 id="y2024">2024 — 1,635 contributions</h4>
 
 <img src="graphs/2024.svg" alt="2024 combined contribution graph" />
 
@@ -44,5 +44,5 @@ Merged contribution graph across my GitHub accounts —
 
 <img src="graphs/2020.svg" alt="2020 combined contribution graph" />
 
-<sub>Last refreshed 2026-11-26</sub>
+<sub>Last refreshed 2026-11-28</sub>
 <!-- contributions:end -->
